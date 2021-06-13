@@ -77,7 +77,7 @@ body{
 
 .Breakfast,.Lunch,.Dinner{position: absolute;
                           top: 50%;
-                          bottom: 50%
+                          bottom: 50%;
                           
                           text-align: center;
                           align-items: center;
