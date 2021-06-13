@@ -169,7 +169,7 @@ body{
            justify-content: space-around;
            padding: 15px;
            font-size: small;
-           color: red;
+           color:#F15A29;
 }
 #section4{ margin-top: -20px;
            margin-left:50px;
@@ -195,30 +195,82 @@ body{
             width: 350px;
 }
 
-#happy>h3{   color: red;}
+#happy>h3{   color:#F15A29;}
 
-.about>h3{   color: red;}
+.about>h3{   color:#F15A29;}
 
-#section5{ 
-              height: 301px;
+#last{
+              height:301px;
               background-image: url("./assets/Backgrounds/subscribe\ \(1\).jpg");
               background-size: contain;
-              background-repeat: no-repeat;
-          }
-
-#section5 p{  text-align: center;
               color: white;
-              align-items: center;
+              text-align: center;
+              background-repeat: no-repeat;
+          
 }
+#subscribe{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              width: 48%;
+              text-align: center;
+}
+#last p{
+              text-align: center;
+              font-size: 15px;
+}
+#subscribe p{
+              text-align: center;
+}
+.sub{         float: left;
+              background-color: lightgray;
+              opacity: 0.6;
+              width: 110px;
+              height: 30px;
+              border-radius: 4px;
+              padding-right: 50%;
+}
+.sub p{
+              text-align: center;
+}
+.five{        float: right ;
+               margin-left: -30px;
+              background-color: #F15A29;
+              width: 160px;
+              height: 30px;
+              border-radius: 4px;
+}
+.five p{      text-align: center;}
+#least{
+              background-color: #F15A29;
+              padding: 30px;
+              color: white;
+              margin-top: -140px;
+}
+#finality{
+              display: flex;
+              font-size: 25px;
+              justify-content: space-around;
 
-td,th{        border: 1px solid white;
-              border-collapse: collapse;
-              padding: 0px 50px 0px 50px;}
-
-.subscribe{float: right;
-           background-color:#F15A29}
-#last{
-          background-color:#F15A29 ;
-          height: 200px;
-          margin-top: -135px;
+}
+.menus{
+              margin-left: -200px;
+}
+.logo{
+              display: flex;
+              justify-content: center;
+              justify-content: space-around;
+              width: 10%;
+              margin-left: 50%;
+}
+h5{
+             font-size: 35px;
+             font-weight: 800;
+}
+#finality{
+             font-size: 23px;
+}
+.footer{
+            margin-top: 40px;
+            font-size: 12px;
 }
