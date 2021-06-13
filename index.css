@@ -1,0 +1,188 @@
+body{
+     margin-left: 250px;
+     margin-right: 250px;
+     overflow: scroll;
+}
+  #one{
+  background-image:url("./assets/Backgrounds/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.nav div{
+  height: 2px;
+  background-color:white;
+  margin: 5px 0;
+  border-radius: 25px;
+  
+
+}
+.nav{width: 40px;
+      display: block;
+      margin: 5em o o 1em; 
+      margin-left: 60px;
+      margin-top: 6px;
+}
+.nav>.two{
+  margin-top: 10px;
+}
+#one img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          justify-content: center;
+        
+
+}
+#one p{margin-bottom: 0px;
+       color: white;
+       text-align: center;
+       font-size: x-large;
+}
+.one>img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#row{
+     display: flex;
+}
+.column{
+        flex: 25%;
+}
+#row:first-child{display: flex;}
+.happy-hour{
+             background-color: lightgray;
+             width: 100%;
+             height: 50%;
+             margin-top: 0;
+             margin-bottom: 0;
+}
+.party-time{   background-color:#F15A29;
+               height: 50%;
+              width: 100%;
+              margin-top: 0;
+             margin-bottom: 0;
+             color: white;}
+
+.Breakfast,.Lunch,.Dinner{position: absolute;
+                          top: 50%;
+                          bottom: 50%;
+                          text-align: center;
+                          align-items: center;
+                          transform: translate(50%, 50%);
+                          color: white;
+                          font-size: medium;
+}
+#Section{display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 250px;
+  justify-content: space-around;
+  font-size: small;
+}
+.fastfood{
+          display: flex;
+          flex-direction: column;
+          float: left;
+          background-color: white;
+          border: 2px solid gray;
+          width: 287px;
+          height: 230px;
+          box-sizing: border-box;
+          padding: 10px;
+}
+.fastfood2{
+           width: 287px;
+           margin-left: -120px;
+}
+#Section2{
+           display: flex;
+           flex-direction: row;
+           margin-top: 50px;
+           height: 250px;
+           justify-content: space-around;
+           font-size: small;
+}
+.drinks{
+           display: flex;
+           flex-direction: row;
+           float: right;
+           background-color: white;
+           border: 2px solid gray;
+           box-sizing: border-box;
+           width: 287px;
+           height: 230px;
+           padding: 10px;
+           
+}
+.drinks2{
+           width: 287px;
+           height: 230px;
+           margin-right:-150px;
+}
+.drinks2>p,.drinks2> h2,.drinks2> h3{text-align: end;}
+
+#Section3{margin-top: 50px;
+          padding: 40px;
+          margin-bottom: 50px;
+          background-image: url("./assets/Backgrounds/foodsBg.jpg");opacity: 0.8;
+          background-repeat: no-repeat;
+          background-size: contain;
+}
+#menutitle>div:first-child{background-color: white;}
+.b{background-color: grey;}
+#menutitle{display: flex;
+           justify-content: space-around;
+           width: 100%;
+}
+.b{ 
+          flex: 25%;
+          border: 1px solid lightgray;
+          text-align: center;
+          font-size: x-small;
+}
+#menutitle:first-child{
+                           background-color: white;
+}
+.menutitle>div{
+             background-color: grey;
+}
+.foodrow{display: flex;}
+.food{
+         background-color: white;
+         justify-content: space-around;
+         padding: 15px;
+         font-size: small;
+         color: red;
+}
+#section4{ margin-top: -20px;
+           margin-left:50px;
+           margin-right:50px;
+           height: 150px;
+           display: flex;
+           justify-content: space-around;
+           align-content: center;
+           font-size: xx-small;
+           border: 1px solid grey;
+           margin-bottom: 50px;
+
+}
+.about{     border: 1px solid lightgray;
+            text-align: center;
+            width: 250px;
+            float: left;
+}
+#happy{     text-align: center;
+            float: right;
+            width: 350px;
+}
+#happy>h3{color: red;}
+.about>h3{color: red;}
+#section5{
+           height: 301px;
+           background-image: url("./assets/Backgrounds/subscribe\ \(1\).jpg");
+           background-size: contain;
+          background-repeat: no-repeat;
+          }
+#section5 p{text-align: center;}
