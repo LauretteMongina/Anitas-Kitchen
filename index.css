@@ -232,20 +232,25 @@ body{
                height: 20px;
                color: white;
 }
+
 #last p{
               text-align: center;
               font-size: 15px;
 }
+
 #subscribe p{
               text-align: center;
 }
-.sub{         flex-direction: row;
+.sub{
+              flex-direction: row;
 }
+
 .sub p{
               text-align: center;
 }
 
 .five p{      text-align: center;}
+
 #least{
               background-color: #F15A29;
               padding: 30px;
@@ -254,9 +259,9 @@ body{
               text-align: center;
             
 }
+
 #finality{
               display: flex;
-              
               font-size: 25px;
               justify-content: space-around;
 
