@@ -211,7 +211,7 @@ body{
 #subscribe{
             display: flex;
             justify-content: space-around;
-            width: 48%;
+            width: 50%;
             margin-left: 250px;
             text-align: center;
 }
