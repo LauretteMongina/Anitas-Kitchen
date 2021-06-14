@@ -140,7 +140,7 @@ button{
           margin-bottom: 50px;
           background-image: url("./assets/Backgrounds/foodsBg.jpg");opacity: 0.8;
           background-repeat: no-repeat;
-          background-size: contain;
+          background-size: cover;
 }
 #menutitle>div:first-child{background-color: white;
 border: none;
@@ -150,7 +150,8 @@ border: none;
 
 #menutitle{                display: flex;
                            justify-content: space-around;
-                           width: 100%;
+                           margin-left: 9px;
+                           margin-right: 18px;
 }
 
 .b{ 
@@ -169,10 +170,10 @@ border: none;
 }
 
 .foodrow{  display: flex;}
-.food{
+.food{     flex: 33.3%;
            background-color: white;
            justify-content: space-around;
-           padding: 15px;
+           padding: 22px;
            font-size: small;
            color:#F15A29;
 }
@@ -207,7 +208,7 @@ border: none;
 #last{
               height:301px;
               background-image: url("./assets/Backgrounds/subscribe\ \(1\).jpg");
-              background-size: contain;
+              background-size: cover;
               color: white;
               text-align: center;
               background-repeat: no-repeat;
