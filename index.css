@@ -142,7 +142,9 @@ button{
           background-repeat: no-repeat;
           background-size: contain;
 }
-#menutitle>div:first-child{background-color: white;}
+#menutitle>div:first-child{background-color: white;
+border: none;
+}
 
 .b{                        background-color: grey;}
 
