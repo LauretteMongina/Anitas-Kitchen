@@ -268,13 +268,14 @@ border: none;
 
 #finality{
               display: flex;
+              flex: 50%;
               font-size: 25px;
               justify-content: space-around;
+              align-items: center;
+              margin-right: 80px;
 
 }
-.menus{
-              padding-left: 100px;
-}
+
 .logo{
               display: flex;
               justify-content: space-around;
