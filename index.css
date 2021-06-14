@@ -74,7 +74,9 @@ body{
               margin-top: 0;
              margin-bottom: 0;
              color: white;}
-
+button{
+       color: red;
+}
 .Breakfast,.Lunch,.Dinner{position: absolute;
                           top: 60%;
                           bottom:50%;
