@@ -48,7 +48,7 @@ body{
      display: flex;
 }
 
-.column{flex-direction: row;
+.column{
         flex: 25%;
         text-align: center;
 }
@@ -76,9 +76,9 @@ body{
              color: white;}
 
 .Breakfast,.Lunch,.Dinner{position: absolute;
-                          top: 50%;
-                          bottom: 50%;
-                          
+                          top: 60%;
+                          bottom:50%;
+                          padding-left: 50px;
                           text-align: center;
                           align-items: center;
                           color: white;
